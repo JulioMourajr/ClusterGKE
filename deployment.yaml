@@ -15,7 +15,7 @@ spec: # Dictionary
     spec:
       containers: # List
         - name: meu-container
-          image: ghcr.io/stacksimplify/kubenginx:1.0.0
+          image: juliomourajr/gcp-runner:1.2
           ports: 
             - containerPort: 80          
           resources:
